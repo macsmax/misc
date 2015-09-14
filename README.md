@@ -7,9 +7,10 @@ Scripts and hopefully useful stuff
 This perl script will allow you to query, comment, close and export Jira tickets.
 
 Perl requirements:
-use JIRA::Client::Automated;
-use Class::CSV;
-use Term::ANSIColor;
+
+JIRA::Client::Automated;
+Class::CSV;
+Term::ANSIColor;
 
 How to use:
 Create a .jira.rc in your home directory with the following information:
