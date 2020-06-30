@@ -25,7 +25,8 @@ USAGE: ./backup.sh [backup|listtags|list|restore] [backup tag] [source|destinati
 backup: perform a backup, the third argument is the backup source
 listtags: list backup tags
 list: list duplicity backups
-restore: restore backuped up data, the second argument is the restore destination```
+restore: restore backuped up data, the second argument is the restore destination
+```
 
 Running the script in cron:
 ```
