@@ -3,7 +3,7 @@ Scripts and hopefully useful stuff
 
 ## Utilities
 
-### Duplicity backup and restore script
+### [backup.sh](https://github.com/macsmax/misc/blob/master/backup.sh) - Duplicity backup and restore script
 This script is a wrapper around duplicity and aims at automating backups. It uses the [wernight/duplicity](https://hub.docker.com/r/wernight/duplicity/) docker container in interactive mode.
 
 Requirements:
@@ -39,7 +39,7 @@ Restoring data:
 ```
 
 
-### jira.pl jira cli
+### [jira.pl](https://github.com/macsmax/misc/blob/master/jira.pl) jira cli
 This perl script will allow you to query, comment, close and export Jira tickets.
 
 Perl requirements:
